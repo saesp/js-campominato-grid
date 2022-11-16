@@ -26,6 +26,7 @@ buttonGrill.addEventListener("click",
             cell.addEventListener("click",
                 function(){
                     cell.classList.toggle("cell-click");
+                    cell.innerHTML = i;
                     console.log("Cell num:", i);
                 }
             )

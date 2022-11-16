@@ -4,21 +4,23 @@
     box-sizing: border-box;
 }
 
-
-#grill{
-    display: none;
-}
-#grill.visible{
-    display: flex;
-    flex-wrap: wrap;
-}
-
 #but-grill{
     padding: 50px;
+
 }
+
+#grill{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
 .cell{
     background-color: red;
-    margin: 10px;
-    width: calc(100% / 10);
+    margin: 7px;
+    width: calc(100%/10 - 14px);
     height: 100px;
+}
+.cell.cell-click{
+    background-color: skyblue;
 }

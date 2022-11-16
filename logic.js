@@ -1,4 +1,4 @@
-//                                     GRIGLIA CAMPO MINATO
+//                                          GRIGLIA CAMPO MINATO
 
 
 // L’utente clicca su un bottone che genererà una griglia di gioco quadrata;
@@ -8,11 +8,11 @@
 
 
 
-// creare bottone
+// bottone
 const buttonGrill = document.getElementById("but-grill");
-
-// creare contenitore griglia
+// contenitore griglia
 const grill = document.getElementById("grill");
+
 
 // creare Griglia e farla comparire solo al Click del button
 buttonGrill.addEventListener("click",
@@ -33,6 +33,7 @@ buttonGrill.addEventListener("click",
         }
     }
 )
+
 
 function grillFun(elementFun, classFun){
     const elementF = document.createElement(elementFun);

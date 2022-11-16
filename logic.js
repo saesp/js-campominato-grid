@@ -20,6 +20,7 @@ buttonGrill.addEventListener("click",
         // creare griglia 100 Celle
         for (let i = 1; i <= 100; i++){
             let cell = grillFun("div", "cell");
+            grill.append(cell);
 
             //quando user clicca su una cella, questa si colora di azzurro ed emette un messaggio in console con il numero della cella cliccata
             cell.addEventListener("click",
@@ -28,8 +29,6 @@ buttonGrill.addEventListener("click",
                     console.log("Cell num:", i);
                 }
             )
-            
-            grill.append(cell);
         }
     }
 )

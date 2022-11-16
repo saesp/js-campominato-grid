@@ -5,18 +5,20 @@
 }
 
 
-.grill{
+#grill{
     display: none;
 }
-.grill.visible{
+#grill.visible{
     display: flex;
+    flex-wrap: wrap;
 }
 
-.but-grill{
+#but-grill{
     padding: 50px;
 }
 .cell{
     background-color: red;
+    margin: 10px;
     width: calc(100% / 10);
     height: 100px;
 }

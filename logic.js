@@ -9,10 +9,10 @@
 
 
 // creare bottone
-const buttonGrill = document.querySelector("but-grill");
+const buttonGrill = document.getElementById("but-grill");
 
 // creare contenitore Griglia
-const grill = document.querySelector("div.grill");
+const grill = document.getElementById("grill");
 
 // creare griglia 100 Celle e farla comparire solo al click del button
 for (let i = 1; i <= 100; i++){

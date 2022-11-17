@@ -24,12 +24,12 @@ buttonGrill.addEventListener("click",
         for (let i = 1; i <= 100; i++){
             let cell = grillFun("div", "cell");
             grill.append(cell);
-
+            cell.innerHTML = i;
+            
             // quando user clicca su una cella, questa si colora di azzurro ed emette un messaggio in console con il numero della cella cliccata
             cell.addEventListener("click",
                 function(){
                     cell.classList.toggle("cell-click");  //toggle toglie e mette
-                    cell.innerHTML = i;
                     console.log("Cell num:", i);
                 }
             )
